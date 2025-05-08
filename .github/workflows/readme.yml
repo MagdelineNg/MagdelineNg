@@ -23,7 +23,7 @@ jobs:
         run: node build-svg.js
 
       - name: Commit changes
-        uses: EndBug/add-and-commit@v4
+        uses: EndBug/add-and-commit@v9
         with:
           author_name: MagdelineNg
           author_email: magdelinenxl@gmail.com
